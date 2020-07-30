@@ -1,5 +1,5 @@
 import React from 'react';
-import BasePage from '../../components/BasePage';
+import BasePage from '../../../components/BasePage';
 
 function CadastroVideo() {
     return (

@@ -3,14 +3,16 @@ import SlickSlider from 'react-slick';
 import styled from 'styled-components';
 
 function SampleArrow(props) {
-    const { className, style, onClick, categoryColor } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", background: categoryColor }}
-            onClick={onClick}
-        />
-    );
+  const {
+    className, style, onClickHandler, categoryColor,
+  } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: 'block', background: categoryColor }}
+      onClick={onClickHandler}
+    />
+  );
 }
 
 const Container = styled.ul`
@@ -57,22 +59,22 @@ img {
 `;
 
 const Slider = ({ categoryColor, children }) => (
-    <Container>
-        <SlickSlider {...{
-            dots: false,
-            infinite: true,
-            speed: 300,
-            variableWidth: true,
-            adaptiveHeight: true,
-            centerMode: true,
-            nextArrow: <SampleArrow categoryColor={categoryColor} />,
-            prevArrow: <SampleArrow categoryColor={categoryColor} />
-        }}
-        >
-            {children}
-        </SlickSlider>
+  <Container>
+    <SlickSlider {...{
+      dots: false,
+      infinite: true,
+      speed: 300,
+      variableWidth: true,
+      adaptiveHeight: true,
+      centerMode: true,
+      nextArrow: <SampleArrow categoryColor={categoryColor} />,
+      prevArrow: <SampleArrow categoryColor={categoryColor} />,
+    }}
+    >
+      {children}
+    </SlickSlider>
 
-    </Container>
-)
+  </Container>
+);
 
 export default Slider;

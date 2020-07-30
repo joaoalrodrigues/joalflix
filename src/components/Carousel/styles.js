@@ -49,7 +49,7 @@ export const VideoCardList = styled.ul`
 
 export const VideoCardGroupContainer = styled.section`
   color: white;
-  height: 400px;
+  height: 376px;
   overflow:hidden;
   margin-left: 5%;
   margin-bottom: 16px;
