@@ -21,18 +21,17 @@ function CadastroCategoria() {
 	}
 
 	useEffect(() => {
-		if (window.location.href.includes('localhost')) {
-			const URL = 'http://localhost:8080/categorias';
-			fetch(URL)
-				.then(async (response) => {
-					if (response.ok) {
-						const result = await response.json();
-						setCategories(result);
-						return;
-					}
-					throw new Error('Não foi possível coletar os dados.')
-				})
-		}
+		const isLocalhost = window.location.href.includes('localhost');
+		const URL = isLocalhost ? 'http://localhost:8080/categorias' : 'https://joalflix.herokuapp.com/categorias';
+		fetch(URL)
+			.then(async (response) => {
+				if (response.ok) {
+					const result = await response.json();
+					setCategories(result);
+					return;
+				}
+				throw new Error('Não foi possível coletar os dados.')
+			})
 	}, []);
 
 	return (
