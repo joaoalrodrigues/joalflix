@@ -1,48 +1,49 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-import Menu from '../../components/Menu';
+import BasePage from '../../components/BasePage';
 import BannerMain from '../../components/BannerMain';
 import Carrousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import categoryRepository from '../../repository/category';
 
 function Home() {
 
 	const [categories, setCategories] = useState([]);
 
 	useEffect(() => {
-		const isLocalhost = window.location.href.includes('localhost');
-		const URL = isLocalhost ? "http://localhost:8080/categorias" : "https://joalflix.herokuapp.com/categorias";
-		fetch(URL)
-			.then(async (response) => {
-				if (response.ok) {
-					const result = await response.json();
-					setCategories(result);
-					return;
-				}
-				throw new Error('Não foi possível coletar os dados.')
+		categoryRepository.getAllWithVideos()
+			.then((categorias) => {
+				setCategories(categorias);
+			})
+			.catch((err) => {
+				console.log(err.message);
 			});
 	}, []);
 
 	const hasCategories = categories.length > 0;
 
 	return (
-		<div style={{ background: "#141414" }}>
-			<Menu />
+		<BasePage >
 
-			<BannerMain />
-
-			{hasCategories &&
-				categories.map(categoria => (
-					<Carrousel
-						key={categoria.id}
-						ignoreFirstVideo
-						category={categoria}
-					/>
-				))
+			{
+				!hasCategories && (<div>Loading...</div>)
 			}
 
-			<Footer />
-		</div >
+			{
+				hasCategories && (
+					<BannerMain video={categories[0].videos[0]} />
+				) && (
+					categories.map(categoria => (
+						<Carrousel
+							key={categoria.id}
+							ignoreFirstVideo
+							category={categoria}
+							videos={categoria.videos}
+						/>
+					))
+				)
+			}
+
+		</BasePage >
 	);
 }
 

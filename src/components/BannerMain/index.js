@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
 
@@ -10,27 +10,12 @@ function getYouTubeId(youtubeURL) {
 		);
 }
 
-export default function BannerMain() {
-	const [video, setVideo] = useState({});
-
-	useEffect(() => {
-		const isLocalhost = window.location.href.includes('localhost');
-		const URL = isLocalhost ? "http://localhost:8080/videos?id=2" : "https://joalflix.herokuapp.com/videos?id=2";
-		fetch(URL)
-			.then(async (response) => {
-				if (response.ok) {
-					const result = (await response.json())[0];
-					result.youTubeID = getYouTubeId(result.url);
-					result.bgUrl = `https://img.youtube.com/vi/${result.youTubeID}/maxresdefault.jpg`;
-					setVideo(result);
-					return;
-				}
-				throw new Error('Não foi possível coletar os dados.')
-			});
-	}, []);
+export default function BannerMain({ video }) {
+	const youTubeID = getYouTubeId(video.url);
+	const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
 
 	return (
-		<BannerMainContainer backgroundImage={video.bgUrl}>
+		<BannerMainContainer backgroundImage={bgUrl}>
 			<ContentAreaContainer>
 				<ContentAreaContainer.Item>
 					<ContentAreaContainer.Title>
@@ -44,7 +29,7 @@ export default function BannerMain() {
 
 				<ContentAreaContainer.Item>
 					<VideoIframeResponsive
-						youtubeID={video.youTubeID}
+						youtubeID={youTubeID}
 					/>
 					<WatchButton>
 						Assistir

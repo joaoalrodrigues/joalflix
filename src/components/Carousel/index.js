@@ -1,31 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
 
 function VideoCardGroup({
 	ignoreFirstVideo,
-	category
+	category,
+	videos
 }) {
 	const categoryTitle = category.titulo;
 	const categoryColor = category.cor;
 	const categoryExtraLink = category.link_extra;
-
-	const [videos, setVideos] = useState([]);
-
-	useEffect(() => {
-		const isLocalhost = window.location.href.includes('localhost');
-		const URL = isLocalhost ? `http://localhost:8080/videos?categoriaId=${category.id}` : `https://joalflix.herokuapp.com/videos?categoriaId=${category.id}`;
-		fetch(URL)
-			.then(async (response) => {
-				if (response.ok) {
-					const result = await response.json();
-					setVideos(result);
-					return;
-				}
-				throw new Error('Não foi possível coletar os dados.')
-			});
-	}, []);
 
 	return (
 		<VideoCardGroupContainer>
