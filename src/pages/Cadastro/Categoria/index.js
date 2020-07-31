@@ -4,21 +4,37 @@ import BasePage from '../../../components/BasePage';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
-function CadastroCategoria() {
-	const [categories, setCategories] = useState([]);
 
-	const initialValues = {
-		name: '',
-		description: '',
-		color: '#000',
-	};
-
+function useForm(initialValues) {
 	const [values, setValues] = useState(initialValues);
 
 	function handleChange(event) {
 		const { value, name } = event.target;
 		setValues({ [name]: value });
 	}
+
+	function clearForm() {
+		setValues(initialValues);
+	}
+
+	return {
+		values,
+		handleChange,
+		clearForm,
+	}
+}
+
+function CadastroCategoria() {
+	const [categories, setCategories] = useState([]);
+
+	const initialValues = {
+		titulo: '',
+		description: '',
+		color: '#000',
+	};
+
+	const { handleChange, values, clearForm } = useForm(initialValues);
+
 
 	useEffect(() => {
 		const isLocalhost = window.location.href.includes('localhost');
@@ -46,14 +62,14 @@ function CadastroCategoria() {
 					values,
 				]);
 
-				setValues(initialValues);
+				clearForm();
 			}}>
 
 				<FormField
-					label="Nome"
+					label="Título"
 					type="text"
-					name="name"
-					value={values.name}
+					name="titulo"
+					value={values.titulo}
 					handleChange={handleChange}
 				/>
 
