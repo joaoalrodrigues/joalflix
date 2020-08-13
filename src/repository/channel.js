@@ -4,7 +4,7 @@ import config from '../config';
 const VIDEOS_PATH = "search?key=<API_KEY>&channelId=<CHANNEL_ID>&fields=items(id(videoId),snippet(channelId,title,description,thumbnails(high(url)),publishTime))&part=snippet&order=date&maxResults=20";
 const CHANNEL_PATH = "channels?fields=items(id,brandingSettings(channel(title,description,image(bannerTvHighImageUrl))&part=brandingSettings&id=<CHANNEL_ID>&key=<API_KEY>";
 
-async function getNewChannel(channelId) {
+export async function getNewChannel(channelId) {
   let CHANNEL_URL = `${config.YOUTUBE_API_URL}${CHANNEL_PATH}`;
   CHANNEL_URL = fixURL(CHANNEL_URL, channelId)
 
@@ -19,7 +19,7 @@ async function getNewChannel(channelId) {
   return channel;
 }
 
-async function getNewVideos(channelId) {
+export async function getNewVideos(channelId) {
   const videosSaved = await getVideos(channelId);
   let lastPublished;
   if (videosSaved.length)
@@ -45,7 +45,7 @@ async function getNewVideos(channelId) {
   return videos;
 }
 
-async function getChannels() {
+export async function getChannels() {
   const CHANNEL_URL = `${config.API_URL}/channels`
 
   const channels = await fetch(CHANNEL_URL).then(async (res) => {
@@ -57,7 +57,7 @@ async function getChannels() {
   return channels;
 }
 
-async function getVideos(channelId) {
+export async function getVideos(channelId) {
   const VIDEOS_URL = `${config.API_URL}/videos?channelId=${channelId}`;
 
   const videos = await fetch(VIDEOS_URL).then(async (res) => {

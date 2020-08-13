@@ -1,6 +1,6 @@
-import API_URL from '../config';
+import config from '../config';
 
-const PATH = `${API_URL}/categorias`
+const PATH = `${config.API_URL}/categorias`
 
 function getAllWithVideos() {
 	const URL = `${PATH}?_embed=videos`
