@@ -1,191 +1,378 @@
 {
-	"categorias": [
+	"channels": [
 		{
-			"id": 1,
-			"titulo": "Front End",
-			"cor": "#017db6",
-			"link_extra": {
-				"text": "Formação de Front End na Alura",
-				"url": "https://www.alura.com.br/cursos-online-front-end"
-			}
+			"id": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "Techzz",
+			"description": "TFT Pro player. Top 4 Set 1 e constantemente no top 8 desde o início do jogo",
+			"bannerImage": "https://yt3.ggpht.com/a54AMeO_tL7LwOIGx8lQ7wHto_bDW8_Tn02mMUeMk0t8NEW1kdQsbPe5uB7eEytxwb59aG4X=w1920-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj"
 		},
 		{
-			"id": 2,
-			"titulo": "Back End",
-			"cor": "#5c10d4",
-			"link_extra": {
-				"text": "Cursos de Back End na Alura",
-				"url": "https://www.alura.com.br/cursos-online-programacao"
-			}
-		},
-		{
-			"id": 3,
-			"titulo": "Data Science e Inteligência Artificial",
-			"cor": "#9cd33b",
-			"link_extra": {
-				"text": "Cursos de Data Science na Alura",
-				"url": "https://www.alura.com.br/cursos-online-mobile"
-			}
-		},
-		{
-			"id": 4,
-			"titulo": "Filmes",
-			"cor": "orange"
-		},
-		{
-			"id": 5,
-			"titulo": "Games",
-			"cor": "red",
-			"link_extra": {
-				"text": "Formação de Jogos na Alura",
-				"url": "https://www.alura.com.br/cursos-online-front-end"
-			}
+			"id": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "LoL eSports BR",
+			"description:": "Canal oficial da Riot Games Brasil, com o melhor do League of Legends competitivo. Acompanhe as transmissões ao vivo dos principais torneios do Brasil e do mundo (CBLoL, Campeonatos Mundiais...). Reveja partidas anteriores, fique por dentro dos bastidores com matérias especiais, e acompanhe também a cobertura completa no site oficial: http://br.lolesports.com",
+			"bannerImage": "https://yt3.ggpht.com/O1JZluEt8biedF-PIvzTkWME70dGwU2MooiORwi3Mt3QYwIdwV9QXo0_mmW-BDiHNDWG01Y=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj"
 		}
 	],
 	"videos": [
 		{
-			"id": 1,
-			"categoriaId": 1,
-			"titulo": "SEO com React",
-			"url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+			"id": "0XhgHsy8caU",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Giro Ligas #18 | CLASSIFICAÇÃO MILAGROSA NA LEC",
+			"description": "GiroLigas: Saiba o que está acontecendo nas outras ligas pelo mundo afora! Curtiu? Inscreva-se no canal de LoL Esports Brasil: https://bit.ly/2CjNFQe ...",
+			"thumbnail": "https://i.ytimg.com/vi/0XhgHsy8caU/hqdefault.jpg",
+			"publishTime": "2020-08-12T23:00:01Z",
+			"url": "https://www.youtube.com/watch?v=0XhgHsy8caU"
 		},
 		{
-			"id": 2,
-			"categoriaId": 1,
-			"titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-			"url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+			"id": "a_3nUccJXw0",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | Rensga Esports x Team oNe (1º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do primeiro jogo da Md5 entre Rensga Esports x Team oNe na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/a_3nUccJXw0/hqdefault.jpg",
+			"publishTime": "2020-08-12T02:55:25Z",
+			"url": "https://www.youtube.com/watch?v=a_3nUccJXw0"
 		},
 		{
-			"id": 3,
-			"categoriaId": 1,
-			"titulo": "Componentização com VanillaJS #AluraMais",
-			"url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+			"id": "qxg1fLh0umI",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória - Md5 | Semifinal 2",
+			"description": "Circuito Desafiante 2020: 2ª Etapa acontece de 8 de Junho a 15 de Agosto com transmissões AO VIVO no YouTube de LoL Esports BR às 21h (Horário de ...",
+			"thumbnail": "https://i.ytimg.com/vi/qxg1fLh0umI/hqdefault.jpg",
+			"publishTime": "2020-08-12T02:28:51Z",
+			"url": "https://www.youtube.com/watch?v=qxg1fLh0umI"
 		},
 		{
-			"id": 4,
-			"categoriaId": 1,
-			"titulo": "Pare de chutar e aprenda a display: inline #01",
-			"url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+			"id": "02fqj8fh7Xs",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | Rensga Esports x Team oNe (3º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do terceiro jogo da Md5 entre Rensga Esports x Team oNe na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/02fqj8fh7Xs/hqdefault.jpg",
+			"publishTime": "2020-08-12T01:38:18Z",
+			"url": "https://www.youtube.com/watch?v=02fqj8fh7Xs"
 		},
 		{
-			"id": 5,
-			"categoriaId": 1,
-			"titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-			"url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+			"id": "hMzMqcGjjCQ",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | Rensga Esports x Team oNe (2º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do segundo jogo da Md5 entre Rensga Esports x Team oNe na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/hMzMqcGjjCQ/hqdefault.jpg",
+			"publishTime": "2020-08-12T01:09:01Z",
+			"url": "https://www.youtube.com/watch?v=hMzMqcGjjCQ"
 		},
 		{
-			"id": 6,
-			"categoriaId": 1,
-			"titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-			"url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+			"id": "0_MHGBnHCLU",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | Rensga Esports x Team oNe (1º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do primeiro jogo da Md5 entre Rensga Esports x Team oNe na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/0_MHGBnHCLU/hqdefault.jpg",
+			"publishTime": "2020-08-12T00:56:19Z",
+			"url": "https://www.youtube.com/watch?v=0_MHGBnHCLU"
 		},
 		{
-			"id": 7,
-			"categoriaId": 1,
-			"titulo": "Novidades do Angular v9",
-			"url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+			"id": "HoVHOqfqfRI",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "DDN + Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória - Md5 | Semifinal 1",
+			"description": "Circuito Desafiante 2020: 2ª Etapa acontece de 8 de Junho a 15 de Agosto com transmissões AO VIVO no YouTube de LoL Esports BR às 21h (Horário de ...",
+			"thumbnail": "https://i.ytimg.com/vi/HoVHOqfqfRI/hqdefault.jpg",
+			"publishTime": "2020-08-11T03:39:26Z",
+			"url": "https://www.youtube.com/watch?v=HoVHOqfqfRI"
 		},
 		{
-			"id": 8,
-			"categoriaId": 2,
-			"titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-			"url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+			"id": "5bn8RXAk9bY",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | Havan Liberty x RED Kalunga (4º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do quarto jogo da Md5 entre Havan Liberty x RED Kalunga na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/5bn8RXAk9bY/hqdefault.jpg",
+			"publishTime": "2020-08-11T01:38:58Z",
+			"url": "https://www.youtube.com/watch?v=5bn8RXAk9bY"
 		},
 		{
-			"id": 9,
-			"categoriaId": 2,
-			"titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-			"url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+			"id": "4cz-vQPb5Q0",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | RED Kalunga x Havan Liberty (3º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do terceiro jogo da Md5 entre RED Kalunga x Havan Liberty na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/4cz-vQPb5Q0/hqdefault.jpg",
+			"publishTime": "2020-08-11T00:56:37Z",
+			"url": "https://www.youtube.com/watch?v=4cz-vQPb5Q0"
 		},
 		{
-			"id": 10,
-			"categoriaId": 2,
-			"titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-			"url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+			"id": "5HLeisSiPok",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | Havan Liberty x RED Kalunga (2º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do segundo jogo da Md5 entre Havan Liberty x RED Kalunga na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/5HLeisSiPok/hqdefault.jpg",
+			"publishTime": "2020-08-11T00:49:07Z",
+			"url": "https://www.youtube.com/watch?v=5HLeisSiPok"
 		},
 		{
-			"id": 11,
-			"categoriaId": 2,
-			"titulo": "API: Dicionário do Programador",
-			"url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+			"id": "DPN7_A7ToNU",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Circuito Desafiante 2020: 2ª Etapa - Fase Eliminatória | Havan Liberty x RED Kalunga (1º Jogo)",
+			"description": "Circuito Desafiante 2020: 2ª Etapa - Assista ao VOD do primeiro jogo da Md5 entre Havan Liberty x RED Kalunga na Fase Eliminatória. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/DPN7_A7ToNU/hqdefault.jpg",
+			"publishTime": "2020-08-10T23:43:08Z",
+			"url": "https://www.youtube.com/watch?v=DPN7_A7ToNU"
 		},
 		{
-			"id": 12,
-			"categoriaId": 2,
-			"titulo": "Usando Git Direito",
-			"url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+			"id": "VjnnEsEpm6c",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "Depois do Nexus: 10/08/2020",
+			"description": "Acompanhe o melhor das partidas do final de semana com os comentários de Tixinha e seus convidados! Curtiu? Inscreva-se no canal de LoL Esports Brasil: ...",
+			"thumbnail": "https://i.ytimg.com/vi/VjnnEsEpm6c/hqdefault.jpg",
+			"publishTime": "2020-08-10T23:33:29Z",
+			"url": "https://www.youtube.com/watch?v=VjnnEsEpm6c"
 		},
 		{
-			"id": 13,
-			"categoriaId": 3,
-			"titulo": "Teste de Turing",
-			"url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+			"id": "wyUKVPMBlRA",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 1ª Etapa - Fase de Pontos | Destaque da Partida SAN x FLA (3º Turno)",
+			"description": "CBLoL 2020: Assista ao Destaque da Partida do terceiro turno entre Santos HotForex (SAN) x Flamengo Esports (FLA) na Fase de Pontos, powered by Gillette!",
+			"thumbnail": "https://i.ytimg.com/vi/wyUKVPMBlRA/hqdefault.jpg",
+			"publishTime": "2020-08-09T22:19:30Z",
+			"url": "https://www.youtube.com/watch?v=wyUKVPMBlRA"
 		},
 		{
-			"id": 14,
-			"categoriaId": 3,
-			"titulo": "O que é Data Science?",
-			"url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+			"id": "0UM88-BaDZU",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 2ª Etapa - Fase de Pontos | Santos HotForex x Flamengo Esports (3º Turno)",
+			"description": "CBLoL 2020: 2ª Etapa - Assista ao VOD do terceiro turno entre Santos HotForex (SAN) x Flamengo Esports (FLA) na Fase de Pontos. Curtiu? Inscreva-se no ...",
+			"thumbnail": "https://i.ytimg.com/vi/0UM88-BaDZU/hqdefault.jpg",
+			"publishTime": "2020-08-09T22:19:30Z",
+			"url": "https://www.youtube.com/watch?v=0UM88-BaDZU"
 		},
 		{
-			"id": 15,
-			"categoriaId": 3,
-			"titulo": "Melhor forma de aprender Python",
-			"url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+			"id": "4VwDXkFKWLk",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 1ª Etapa - Fase de Pontos | Melhores Momentos SAN x FLA (3º Turno) - by Dell Gaming",
+			"description": "CBLoL 2020: Assista aos Melhores Momentos do terceiro turno entre Santos HotForex (SAN) x Flamengo Esports (FLA) na Fase de Pontos, by Dell Gaming.",
+			"thumbnail": "https://i.ytimg.com/vi/4VwDXkFKWLk/hqdefault.jpg",
+			"publishTime": "2020-08-09T22:19:30Z",
+			"url": "https://www.youtube.com/watch?v=4VwDXkFKWLk"
 		},
 		{
-			"id": 16,
-			"categoriaId": 3,
-			"titulo": "Como ingressar no mercado de Data Science?",
-			"url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+			"id": "69qnFRZWB5Q",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 1ª Etapa - Fase de Pontos | Análise da Partida SAN x FLA (3º Turno)",
+			"description": "CBLoL 2020: Assista à Análise da Partida do terceiro turno entre Santos HotForex (SAN) x Flamengo Esports (FLA) na Fase de Pontos, powered by Mastercard!",
+			"thumbnail": "https://i.ytimg.com/vi/69qnFRZWB5Q/hqdefault.jpg",
+			"publishTime": "2020-08-09T22:19:30Z",
+			"url": "https://www.youtube.com/watch?v=69qnFRZWB5Q"
 		},
 		{
-			"id": 17,
-			"categoriaId": 4,
-			"titulo": "Interestellar",
-			"url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+			"id": "fz_4tSiYDvU",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 2ª Etapa - Fase de Pontos - Md1 | Semana 10 - Rodada 21",
+			"description": "CBLoL 2020: 2ª Etapa acontece de 06 de Junho a 5 de Setembro com transmissões AO VIVO no YouTube de LoL Esports BR às 13h (Horário de Brasília).",
+			"thumbnail": "https://i.ytimg.com/vi/fz_4tSiYDvU/hqdefault.jpg",
+			"publishTime": "2020-08-09T20:44:27Z",
+			"url": "https://www.youtube.com/watch?v=fz_4tSiYDvU"
 		},
 		{
-			"id": 18,
-			"categoriaId": 4,
-			"titulo": "Gattaca",
-			"url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+			"id": "KdTy45LXNRk",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 2ª Etapa - Fase de Pontos | INTZ x KABUM E-SPORTS (3º Turno)",
+			"description": "CBLoL 2020: 2ª Etapa - Assista ao VOD do terceiro turno entre INTZ (ITZ) x KABUM E-SPORTS (KBM) na Fase de Pontos. Curtiu? Inscreva-se no canal de LoL ...",
+			"thumbnail": "https://i.ytimg.com/vi/KdTy45LXNRk/hqdefault.jpg",
+			"publishTime": "2020-08-09T20:26:38Z",
+			"url": "https://www.youtube.com/watch?v=KdTy45LXNRk"
 		},
 		{
-			"id": 19,
-			"categoriaId": 4,
-			"titulo": "A Chegada",
-			"url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+			"id": "vKPEtzOCnEs",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 1ª Etapa - Fase de Pontos | Destaque da Partida ITZ x KBM (3º Turno)",
+			"description": "CBLoL 2020: Assista ao Destaque da Partida do terceiro turno entre INTZ (ITZ) x KABUM E-SPORTS (KBM) na Fase de Pontos, powered by Gillette!",
+			"thumbnail": "https://i.ytimg.com/vi/vKPEtzOCnEs/hqdefault.jpg",
+			"publishTime": "2020-08-09T20:26:38Z",
+			"url": "https://www.youtube.com/watch?v=vKPEtzOCnEs"
 		},
 		{
-			"id": 20,
-			"categoriaId": 4,
-			"titulo": "Feitiço do Tempo",
-			"url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+			"id": "DG6MR_wAijM",
+			"channelId": "UC48rkTlXjRd6pnqqBkdV0Mw",
+			"title": "CBLoL 2020: 1ª Etapa - Fase de Pontos | Melhores Momentos ITZ x KBM (3º Turno) - by Dell Gaming",
+			"description": "CBLoL 2020: Assista aos Melhores Momentos do terceiro turno entre INTZ (ITZ) x KABUM E-SPORTS (KBM) na Fase de Pontos, by Dell Gaming. Curtiu?",
+			"thumbnail": "https://i.ytimg.com/vi/DG6MR_wAijM/hqdefault.jpg",
+			"publishTime": "2020-08-09T20:26:38Z",
+			"url": "https://www.youtube.com/watch?v=DG6MR_wAijM"
 		},
 		{
-			"id": 21,
-			"categoriaId": 5,
-			"titulo": "Final Fantasy 7",
-			"url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+			"id": "wIZjyR-LU9I",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - #1 ANALISANDO OS MELHORES JOGADORES! - DARK HYDRA",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/wIZjyR-LU9I/hqdefault.jpg",
+			"publishTime": "2020-08-12T22:21:21Z",
+			"url": "https://www.youtube.com/watch?v=wIZjyR-LU9I"
 		},
 		{
-			"id": 22,
-			"categoriaId": 5,
-			"titulo": "Assassins Creed Valhalla",
-			"url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+			"id": "BpKOKnVFz-4",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - TEAM LW VS TEAM ZZROT - MELHORES MOMENTOS!",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/BpKOKnVFz-4/hqdefault.jpg",
+			"publishTime": "2020-08-11T23:19:50Z",
+			"url": "https://www.youtube.com/watch?v=BpKOKnVFz-4"
 		},
 		{
-			"id": 23,
-			"categoriaId": 5,
-			"titulo": "God of War 4",
-			"url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+			"id": "KYJrCp0iIB8",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - ESSE CARA JA PEGOU TOP 1 DA EUROPA VÁRIAS VEZES! - ANALISANDO DARKHYDRA",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/KYJrCp0iIB8/hqdefault.jpg",
+			"publishTime": "2020-08-10T21:16:12Z",
+			"url": "https://www.youtube.com/watch?v=KYJrCp0iIB8"
 		},
 		{
-			"id": 24,
-			"categoriaId": 5,
-			"titulo": "Resident Evil 8",
-			"url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+			"id": "Iqj4_Ov90gY",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - O FUTURO DE TFT FOI REVELADO PELA RIOT! - ROADMAP 2020-2021",
+			"description": "TFT CHALLENGER GAMEPLAY VÍDEO ORIGINAL DA RIOT: http://youtu.be/YpMAeobgpS4 Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT ...",
+			"thumbnail": "https://i.ytimg.com/vi/Iqj4_Ov90gY/hqdefault.jpg",
+			"publishTime": "2020-08-07T22:06:45Z",
+			"url": "https://www.youtube.com/watch?v=Iqj4_Ov90gY"
+		},
+		{
+			"id": "TLQheRd5be8",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - AS MELHORES COMPS DO PATCH 10.16!",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/TLQheRd5be8/hqdefault.jpg",
+			"publishTime": "2020-08-06T21:24:57Z",
+			"url": "https://www.youtube.com/watch?v=TLQheRd5be8"
+		},
+		{
+			"id": "oj81vOGiqak",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - TUDO SOBRE O PATCH 10.16! - NOTAS DE ATUALIZAÇÃO",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/oj81vOGiqak/hqdefault.jpg",
+			"publishTime": "2020-08-04T21:44:19Z",
+			"url": "https://www.youtube.com/watch?v=oj81vOGiqak"
+		},
+		{
+			"id": "RNejlGocf_Q",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - A MELHOR COMP DO PATCH! - GAMEPLAY EXPLICATIVA",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/RNejlGocf_Q/hqdefault.jpg",
+			"publishTime": "2020-08-02T20:44:10Z",
+			"url": "https://www.youtube.com/watch?v=RNejlGocf_Q"
+		},
+		{
+			"id": "TnH-AlyHFFE",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - ESSA COMP PRECISA DE NERF!! - GAMEPLAY EXPLICATIVA",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/TnH-AlyHFFE/hqdefault.jpg",
+			"publishTime": "2020-07-31T20:22:24Z",
+			"url": "https://www.youtube.com/watch?v=TnH-AlyHFFE"
+		},
+		{
+			"id": "xzSokWPHgvc",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - AS MELHORES COMPS DO PATCH 10.15! -TIERLIST ATUALIZADA",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/xzSokWPHgvc/hqdefault.jpg",
+			"publishTime": "2020-07-28T23:04:42Z",
+			"url": "https://www.youtube.com/watch?v=xzSokWPHgvc"
+		},
+		{
+			"id": "Dvi9We3PWRs",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - O CONFRONTO DO ANO: TEAM LW VS TEAM ZZROT",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/Dvi9We3PWRs/hqdefault.jpg",
+			"publishTime": "2020-07-27T16:23:46Z",
+			"url": "https://www.youtube.com/watch?v=Dvi9We3PWRs"
+		},
+		{
+			"id": "gHtu9PkdyAk",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - ANALISANDO PROPLAYERS - JOGUE COMO UM! FEAT KIRBYZIN, RENEGA E HIGUREE",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/gHtu9PkdyAk/hqdefault.jpg",
+			"publishTime": "2020-07-24T22:12:34Z",
+			"url": "https://www.youtube.com/watch?v=gHtu9PkdyAk"
+		},
+		{
+			"id": "rr2cYlo8B1A",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - MELHORES COMPS PARA SUBIR DE ELO! - PATCH 10.15",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/rr2cYlo8B1A/hqdefault.jpg",
+			"publishTime": "2020-07-23T20:02:11Z",
+			"url": "https://www.youtube.com/watch?v=rr2cYlo8B1A"
+		},
+		{
+			"id": "_gyoJNc8US4",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - TUDO SOBRE O PATCH 10.15! - NOTAS DE ATUALIZAÇÃO",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/_gyoJNc8US4/hqdefault.jpg",
+			"publishTime": "2020-07-22T20:21:22Z",
+			"url": "https://www.youtube.com/watch?v=_gyoJNc8US4"
+		},
+		{
+			"id": "KLkacRxDn9Y",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - O COREANO QUE PEGOU TOP1 EM 1 SEMANA NO NA! - ANÁLISE BEBE872",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/KLkacRxDn9Y/hqdefault.jpg",
+			"publishTime": "2020-07-21T21:56:01Z",
+			"url": "https://www.youtube.com/watch?v=KLkacRxDn9Y"
+		},
+		{
+			"id": "ZSzGT5Dr35I",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - A MELHOR COMP DO PATCH 10.14!! GAMEPLAY EXPLICATIVA",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/ZSzGT5Dr35I/hqdefault.jpg",
+			"publishTime": "2020-07-20T21:39:18Z",
+			"url": "https://www.youtube.com/watch?v=ZSzGT5Dr35I"
+		},
+		{
+			"id": "FyTo_AFIiTQ",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - ANALISANDO PRO PLAYERS JOGANDO! FEAT GOAT, SLOOPER E HIGUREE",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/FyTo_AFIiTQ/hqdefault.jpg",
+			"publishTime": "2020-07-16T01:33:19Z",
+			"url": "https://www.youtube.com/watch?v=FyTo_AFIiTQ"
+		},
+		{
+			"id": "Vqo8q7jGNfA",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - MUDOU O META? NERFARAM O J4!",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/Vqo8q7jGNfA/hqdefault.jpg",
+			"publishTime": "2020-07-14T19:18:40Z",
+			"url": "https://www.youtube.com/watch?v=Vqo8q7jGNfA"
+		},
+		{
+			"id": "1wMO087Pa_Q",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - AS MELHORES COMPS DO PATCH 10.14!",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/1wMO087Pa_Q/hqdefault.jpg",
+			"publishTime": "2020-07-10T21:18:36Z",
+			"url": "https://www.youtube.com/watch?v=1wMO087Pa_Q"
+		},
+		{
+			"id": "5bWRYn2CBDU",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - TUDO SOBRE O PATCH 10.14! - NOTAS DE ATUALIZAÇÃO",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/5bWRYn2CBDU/hqdefault.jpg",
+			"publishTime": "2020-07-08T20:57:31Z",
+			"url": "https://www.youtube.com/watch?v=5bWRYn2CBDU"
+		},
+		{
+			"id": "MaNFdr--vvs",
+			"channelId": "UCMKtvUIPrFGUPkD2dhuftHw",
+			"title": "TFT - COMO E ONDE APRENDER SOBRE O JOGO!",
+			"description": "TFT CHALLENGER GAMEPLAY Guia de SLOWROLL: https://youtu.be/BVS4yfftwRc Guia de SCOUT e POSICIONAMENTO: https://youtu.be/ZSyoUDnTUZM ...",
+			"thumbnail": "https://i.ytimg.com/vi/MaNFdr--vvs/hqdefault.jpg",
+			"publishTime": "2020-07-07T19:36:15Z",
+			"url": "https://www.youtube.com/watch?v=MaNFdr--vvs"
 		}
 	]
 }

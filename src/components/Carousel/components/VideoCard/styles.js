@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const VideoCardContainer = styled.a`
+const VideoCardContainer = styled.button`
   border: 2px solid;
   border-radius: 4px;
   text-decoration: none;
@@ -18,7 +18,7 @@ const VideoCardContainer = styled.a`
   align-items: flex-end;
   margin-top: 32px;
   padding: 16px;
-  opacity: .5;
+  opacity: .8;
 
   transition: opacity .3s;
   &:hover,

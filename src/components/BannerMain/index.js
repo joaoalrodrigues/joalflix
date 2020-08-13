@@ -10,20 +10,19 @@ function getYouTubeId(youtubeURL) {
 		);
 }
 
-export default function BannerMain({ video }) {
+export default function BannerMain({ video, banner }) {
 	const youTubeID = getYouTubeId(video.url);
-	const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
 
 	return (
-		<BannerMainContainer backgroundImage={bgUrl}>
+		<BannerMainContainer backgroundImage={banner}>
 			<ContentAreaContainer>
 				<ContentAreaContainer.Item>
 					<ContentAreaContainer.Title>
-						{video.titulo}
+						{video.title}
 					</ContentAreaContainer.Title>
 
 					<ContentAreaContainer.Description>
-						{video.titulo}
+						{video.description}
 					</ContentAreaContainer.Description>
 				</ContentAreaContainer.Item>
 

@@ -17,8 +17,12 @@ export const ContentAreaContainer = styled.section`
 
 ContentAreaContainer.Item = styled.div`
   width: 50%;
+  /* height: 45%; */
   display: inline-block;
+  /* flex-direction: column; */
   margin-bottom: 50px;
+  /* margin-top: 35px; */
+
   @media (max-width: 800px) {
     width: 100%;
   }

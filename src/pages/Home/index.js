@@ -1,46 +1,63 @@
 import React, { useState, useEffect } from 'react';
+import styled from 'styled-components';
 import './Home.css';
-import BasePage from '../../components/BasePage';
+import { BasePage } from '../../components/BasePage';
 import BannerMain from '../../components/BannerMain';
-import Carrousel from '../../components/Carousel';
-import categoryRepository from '../../repository/category';
+import Carousel from '../../components/Carousel';
+import { getAllWithVideos } from '../../repository/channel';
 
 function Home() {
 
-	const [categories, setCategories] = useState([]);
+	const [channels, setChannels] = useState([]);
+	const [video, setVideo] = useState({});
+	const [banner, setBanner] = useState("");
+
+	const handleClick = (video, banner) => {
+		setVideo(video);
+		setBanner(banner);
+		window.scrollTo(0, 0);
+	};
 
 	useEffect(() => {
-		categoryRepository.getAllWithVideos()
-			.then((categorias) => {
-				setCategories(categorias);
-			})
-			.catch((err) => {
-				console.log(err.message);
-			});
+		getAllWithVideos().then((channels) => {
+			setVideo(channels[0].videos[0]);
+			setBanner(channels[0].bannerImage);
+			setChannels(channels);
+		}).catch((err) => {
+			console.log(err.message);
+		});
+
 	}, []);
 
-	const hasCategories = categories.length > 0;
-
 	return (
-		<BasePage >
+		<BasePage home>
+
+			{channels.length === 0 && (<div>Loading...</div>)}
 
 			{
-				!hasCategories && (<div>Loading...</div>)
-			}
+				channels.map((channel, index) => {
+					if (index === 0) {
+						return (
+							<div key={channel.id}>
+								<BannerMain video={video} banner={banner} />
+								<Carousel
+									ignoreFirstVideo
+									channel={channels[0]}
+									handleClick={handleClick}
+								/>
+							</div>
+						);
+					}
 
-			{
-				hasCategories && (
-					<BannerMain video={categories[0].videos[0]} />
-				) && (
-					categories.map(categoria => (
-						<Carrousel
-							key={categoria.id}
-							ignoreFirstVideo
-							category={categoria}
-							videos={categoria.videos}
+					return (
+						<Carousel
+							key={channel.id}
+							channel={channel}
+							handleClick={handleClick}
 						/>
-					))
-				)
+					);
+				})
+
 			}
 
 		</BasePage >

@@ -10,15 +10,16 @@ function getYouTubeId(youtubeURL) {
 		);
 }
 
-function VideoCard({ videoTitle, videoURL, categoryColor }) {
-	const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
+function VideoCard({ video, channelColor, banner, handleClick }) {
+	const image = `https://img.youtube.com/vi/${getYouTubeId(video.url)}/hqdefault.jpg`;
 	return (
 		<VideoCardContainer
 			url={image}
-			href={videoURL}
+			// href={videoURL}
 			target="_blank"
-			style={{ borderColor: categoryColor || 'red' }}
-			title={videoTitle}
+			style={{ borderColor: channelColor }}
+			title={video.title}
+			onClick={() => handleClick(video, banner)}
 		/>
 	);
 }

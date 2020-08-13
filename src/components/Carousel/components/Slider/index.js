@@ -63,7 +63,7 @@ img {
 }
 `;
 
-const Slider = ({ categoryColor, children }) => (
+const Slider = ({ children }) => (
 	<Container>
 		<SlickSlider {...{
 			dots: false,
@@ -72,8 +72,8 @@ const Slider = ({ categoryColor, children }) => (
 			variableWidth: true,
 			adaptiveHeight: true,
 			centerMode: true,
-			nextArrow: <Arrow categoryColor={categoryColor} />,
-			prevArrow: <Arrow categoryColor={categoryColor} />,
+			nextArrow: <Arrow categoryColor='var(--primary)' />,
+			prevArrow: <Arrow categoryColor='var(--primary)' />,
 		}}
 		>
 			{children}
