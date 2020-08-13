@@ -1,6 +1,5 @@
 import config from '../config';
 
-
 const VIDEOS_PATH = "search?key=<API_KEY>&channelId=<CHANNEL_ID>&fields=items(id(videoId),snippet(channelId,title,description,thumbnails(high(url)),publishTime))&part=snippet&order=date&maxResults=20";
 const CHANNEL_PATH = "channels?fields=items(id,brandingSettings(channel(title,description,image(bannerTvHighImageUrl))&part=brandingSettings&id=<CHANNEL_ID>&key=<API_KEY>";
 
