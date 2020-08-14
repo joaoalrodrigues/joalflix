@@ -24,3 +24,4 @@ yarn-error.log*
 
 # config
 joalflix-de755a394068.json
+*.env

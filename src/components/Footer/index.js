@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
 	return (
 		<FooterBase>
-			<Link href="/">
+			<Link to="/">
 				<FooterLogo src={Logo} alt="Logo" />
 			</Link>
 		</FooterBase>

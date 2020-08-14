@@ -11,7 +11,7 @@ function Menu() {
 				<img className="Logo" src={Logo} alt="joalflix logo" />
 			</Link>
 
-			<ButtonLink className=" ButtonLink" href="/cadastro/canal">
+			<ButtonLink className=" ButtonLink" href="/register/channel">
 				Novo canal
             </ButtonLink>
 		</nav >

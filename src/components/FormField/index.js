@@ -61,50 +61,50 @@ const Input = styled.input`
   }
 
   ${({ value }) => {
-    const hasValue = value.length > 0;
-    return hasValue && css`
+		const hasValue = value.length > 0;
+		return hasValue && css`
       &:not([type="color"]) + span{
         transform: scale(.6) translateY(-10px);
       }
     `}
-  }
+	}
 `;
 
 function FormField({
-  label, handleChange, ...otherProps
+	label, handleChange, ...otherProps
 }) {
-  const isTypeTextArea = otherProps.type === "textarea";
-  const tag = isTypeTextArea ? "textarea" : "input";
+	const isTypeTextArea = otherProps.type === "textarea";
+	const tag = isTypeTextArea ? "textarea" : "input";
 
-  return (
-    <FormFieldWrapper>
-      <Label>
-        <Input
-          as={tag}
-          onChange={handleChange}
-          {...otherProps}
-        />
-        <Label.Text>
-          {label}
+	return (
+		<FormFieldWrapper>
+			<Label>
+				<Input
+					as={tag}
+					onChange={handleChange}
+					{...otherProps}
+				/>
+				<Label.Text>
+					{label}
           :
         </Label.Text>
-      </Label>
-    </FormFieldWrapper>
-  );
+			</Label>
+		</FormFieldWrapper>
+	);
 }
 
 FormField.defaultProps = {
-  type: 'text',
-  value: '',
-  handleChange: () => { },
+	type: 'text',
+	value: '',
+	handleChange: () => { },
 };
 
 FormField.propTypes = {
-  label: PropTypes.string.isRequired,
-  type: PropTypes.string,
-  name: PropTypes.string.isRequired,
-  value: PropTypes.string,
-  handleChange: PropTypes.func,
+	label: PropTypes.string.isRequired,
+	type: PropTypes.string,
+	name: PropTypes.string.isRequired,
+	value: PropTypes.string,
+	handleChange: PropTypes.func,
 };
 
 export default FormField;
